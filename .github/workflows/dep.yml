@@ -30,6 +30,6 @@ jobs:
       host: ${{ secrets.AZURE_VM_HOST }}
       username: ${{ secrets.AZURE_VM_USER }}
       key: ${{ secrets.AZURE_VM_SSH_KEY }}
-      source: "build/*"
+      source: "dist/*"
       target: "/var/www/html"
       strip_components: 1
