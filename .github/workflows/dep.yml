@@ -24,7 +24,7 @@ jobs:
    - name: build
      run: npm run build
 
-   - name: Copy build files to Azure VM
+   - name: Copy build files to Azure V
      uses: appleboy/scp-action@v0.1.7
      with:
       host: ${{ secrets.AZURE_VM_HOST }}
