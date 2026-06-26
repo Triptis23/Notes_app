@@ -34,7 +34,7 @@ const Page = () => {
         }}
      >
          
-        <h1 className='text-white text-4xl font-bold pt-10 px-10'>Welcome to Notes App</h1>
+        <h1 className='text-white text-4xl font-bold pt-10 px-10'>Welcomeeeeeeeeeeeeeeeeeeee to Notes App</h1>
         <div className='flex flex-col items-start gap-5 px-10 pt-10'>
           <input
             type='text'
